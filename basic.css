@@ -1,0 +1,26 @@
+
+.secondary{
+    position: absolute;
+    /* width: 50px;
+    height: 50px; */
+    /* background-color:red; */
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 2em;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    background-image: url(cover.png);
+    background-size:cover;
+    bottom: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    filter: blur(25px);
+    right: -20px;
+    left: -10px;
+    z-index: -1;
+}
